@@ -9,7 +9,9 @@ var opts = {
   iceServers: freeice()
 };
 
-quickconnect('https://switchboard.rtc.io/', opts)
+var connecton = quickconnect('https://switchboard.rtc.io/', opts);
+console.log("ID: " + connecton.id);
+connecton
   .createDataChannel('test')
   .on('channel:opened:test', function (id, dc) {
     console.log('dc open for peer: ' + id);
