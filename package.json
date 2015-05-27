@@ -2,7 +2,7 @@
   "name": "rtc-quickconnect-demo",
   "version": "0.0.1",
   "dependencies": {
-    "rtc-tools": "vkosh/rtc-tools#fix-candidate",
+    "rtc-tools": "vkosh/rtc-tools#fix-apply-candidate",
     "rtc-quickconnect": "^4.3.0"
   },
   "devDependencies": {
